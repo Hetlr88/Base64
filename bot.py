@@ -15,9 +15,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("BOT_TOKEN","")
+TOKEN = os.environ.get("BOT_TOKEN","7461358634:AAHqk9o56O33T6uy8h4rWFFs_GmNwlhzZXc")
 
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "6169288210")
 
 
 def send_typing_action(func):
